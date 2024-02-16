@@ -1,0 +1,6 @@
+Overall Feedback
+-2 missing .gitignore file, please add .gitignore file before submitting next time
+-4 did not generate a deck if no file supplied
+-3 when computer plays an 8, did not choose a suit
+-----
+You did a great job!
