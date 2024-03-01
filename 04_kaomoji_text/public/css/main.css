@@ -1,0 +1,26 @@
+* {
+    color: #c85a89;
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+}
+
+table, td {
+    border: 1px solid #c85a89;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+
+td {
+    text-align: center;
+}
