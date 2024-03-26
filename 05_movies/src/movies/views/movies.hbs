@@ -1,0 +1,29 @@
+<h1>Let's Watch Some Movies!</h1>
+
+<form method="GET">
+    Director:
+    <input type="text" name="director">
+    <button type="submit">Filter</button>
+</form><br>
+
+{{#if director}}
+<p>Showing only movies direct by: {{director}}</p>
+{{/if}}<br>
+
+<table>
+    <tr style="background: rgb(200, 200, 200)">
+        <th>Title</th>
+        <th>Year</th>
+        <th>Director</th>
+    </tr>
+    {{#each movies}}  
+        <tr>
+            <td>{{title}}</td>
+            <td>{{year}}</td>
+            <td>{{director}}</td>
+        </tr> 
+    {{/each}}
+</table>
+
+<p><a href="/movies/add">Add a Movie</a></p>
+<p><a href="/mymovies">My Movies</a></p>
