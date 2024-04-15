@@ -1,0 +1,156 @@
+body {
+    height: 100vh;
+    font-family: Garamond, sans-serif;
+    font-size: 1.25em;
+    background-image: url("background.jpg");
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: none;
+}
+
+.home-link {
+    position: absolute;
+    top: 0.25em;
+    left: 0.75em;
+}
+
+.login-status {
+    position: absolute;
+    top: 0.25em;
+    right: 0.75em;
+}
+
+header {
+    position: relative;
+    background-color: #ccddff;
+    margin: 0px;
+    height: 1.5em;
+    padding: 0.25em 1em 0em 1em;
+}
+
+nav > a,
+nav > a:visited {
+    color: black;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+#outer {
+    width: 500px;
+    height: 100vh;
+    background-color: #fff;
+    margin: auto;
+    text-align: left;
+}
+
+div.content {
+    padding: 0em 1em 1em 1em;
+}
+
+.note {
+    color: #888;
+    padding-top: 1em;
+}
+
+.error {
+    background-color: #eecccc;
+    padding: 0.25em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.success {
+    background-color: #cceecc;
+    padding: 0.25em;
+}
+
+form div {
+    padding-bottom: 0.5em;
+}
+
+textarea {
+    width: 25em;
+    height: 12em;
+}
+
+form textarea,
+form input {
+    display: inline-block;
+}
+
+input {
+    border: 1px solid #555;
+    font-size: 1em;
+}
+
+.start {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5em;
+    box-shadow: 5px 2px 2px gray;
+}
+
+.playBtn {
+    width: 4em;
+    box-shadow: 5px 2px 2px gray;
+    border-radius: 0px;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.card {
+    width: 6.3em;
+    height: 8.8em;
+    box-sizing: border-box;
+    background-color: white;
+    color: red;
+    border-radius: 0.5em;
+    text-align: left;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+}
+
+.secret {
+    background-image: url("cardback.jpg");
+    background-size: cover;
+    color: #00000000;
+}
+
+.hand > p {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5em;
+    box-shadow: 5px 2px 2px gray;
+}
+
+.hand > div {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.btns {
+    width: 4em;
+    font-size: medium;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 5em;
+    box-shadow: 5px 2px 2px gray;
+    border-radius: 0px;
+}
